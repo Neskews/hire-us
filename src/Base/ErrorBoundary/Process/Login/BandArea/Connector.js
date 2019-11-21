@@ -1,4 +1,4 @@
-import { BandArea as _BandArea } from './BandArea';
+import { BandArea } from './BandArea';
 import { connect } from '../../../../../api/Provider/connect';
 import { getLogin } from "../../../../../api/selectors/selectors";
 
@@ -6,6 +6,6 @@ const mapStateToProps = (state) => ({
   login: getLogin(state)
 })
 
-export const BandArea = connect(
+export default connect(
   mapStateToProps
-)(_BandArea);
+)(BandArea);
