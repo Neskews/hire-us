@@ -1,0 +1,25 @@
+@import "src/style/globals";
+@import "src/style/mixins";
+
+.btn {
+  @include use-form-reset;
+  width: 132px;
+  height: 48px;
+  color: #fff;
+  background-color: $primary-color;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &.secondary {
+    background-color: #fff;
+    border: 1px solid $primary-color;
+    color: $color;
+    height: 36px;
+
+    &:hover {
+      background-color: $primary-color;
+      color: #fff;
+    }
+  }
+}

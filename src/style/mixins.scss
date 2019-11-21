@@ -1,0 +1,10 @@
+@import "src/style/globals";
+@import "./responsive.scss";
+@import "./padding.scss";
+@import "./dropdown.scss";
+
+@mixin use-form-reset {
+  border: none;
+  box-shadow: none;
+  outline-color: $primary-color;
+}

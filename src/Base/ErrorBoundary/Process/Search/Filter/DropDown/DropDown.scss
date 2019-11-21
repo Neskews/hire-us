@@ -1,0 +1,22 @@
+@import "src/style/globals";
+
+.DropDown {
+  &.isOpen {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 4px 2px 5px #eee;
+    border: $border-soft;
+
+    .DropDownItem {
+      &:not(:last-child) {
+        border-bottom: 1px solid $primary-color;
+      }
+
+      &:first-child {
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+  }
+}

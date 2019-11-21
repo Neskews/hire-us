@@ -1,0 +1,9 @@
+@import "src/style/globals";
+@import "src/style/mixins";
+
+.Small {
+  text-transform: uppercase;
+  border-bottom: $border-soft;
+  @include use-top-bottom-padding;
+  font-size: $text-font;
+}

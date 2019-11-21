@@ -1,0 +1,6 @@
+@import "src/style/mixins";
+
+.DropDownItem {
+  @include use-item-padding;
+  width: 200px;
+}

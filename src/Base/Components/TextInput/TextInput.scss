@@ -1,0 +1,17 @@
+@import "src/style/mixins";
+@import "src/style/globals";
+
+.inp {
+  @include use-form-reset;
+  background-color: #fff;
+  border-bottom: 1px solid;
+  border-color: $color;
+  height: 22px;
+  max-width: 200px;
+  margin-bottom: 12px;
+  outline: none;
+
+  &:focus {
+    border-color: $primary-color;
+  }
+}

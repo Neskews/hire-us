@@ -1,0 +1,29 @@
+[
+   {
+    "name": "Berlin Show Orchestra",
+    "price": 500,
+    "events": [
+      "Hochzeit",
+      "Geburtstag"
+    ],
+    "kinds": [
+      "Classic",
+      "Jazz"
+    ]
+  },
+  {
+    "name": "Christian Kirschstein",
+    "price": 500,
+    "events": [
+      "Weihnachtsfeier"
+    ],
+    "kinds": [
+      "Country"
+    ]
+  }, {
+    "name": "a",
+    "price": 1,
+    "events": [],
+    "kinds": []
+  }
+]

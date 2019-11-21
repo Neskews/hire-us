@@ -1,0 +1,35 @@
+@import "./responsive";
+
+@mixin use-side-padding {
+  padding: {
+    left: 12px;
+    right: 12px;
+  }
+}
+
+@mixin use-top-bottom-padding {
+  padding: {
+    top: 12px;
+    bottom: 12px;
+  }
+}
+
+@mixin use-bottom-padding {
+  padding: {
+    bottom: 12px;
+  }
+}
+
+@mixin use-padding {
+  @include use-side-padding();
+  @include use-top-bottom-padding();
+}
+
+@mixin use-intermediate-padding {
+  @include desktop {
+    margin-bottom: 48px;
+  }
+  @include mobile {
+    margin-bottom: 12px;
+  }
+}

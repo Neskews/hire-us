@@ -1,0 +1,11 @@
+@import "./globals.scss";
+
+#root {
+  margin: -8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: $background-color;
+  color: $color;
+}

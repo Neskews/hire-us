@@ -1,0 +1,11 @@
+@import "src/style/mixins";
+@import "src/style/globals";
+
+.Filter {
+  @include use-top-bottom-padding;
+
+  & > div:nth-child(1) {
+    width: 200px;
+    border-bottom: $border-hard;
+  }
+}

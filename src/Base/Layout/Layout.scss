@@ -1,0 +1,15 @@
+@import "src/style/mixins";
+
+.Layout {
+  background-color: #fff;
+  margin: 0 auto;
+  @include use-side-padding;
+
+  @include mobile {
+    padding: 0 16px;
+  }
+
+  @include desktop {
+    width: 1000px;
+  }
+}
